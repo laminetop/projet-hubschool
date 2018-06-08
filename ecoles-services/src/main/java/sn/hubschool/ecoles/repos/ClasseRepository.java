@@ -8,9 +8,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import sn.hubschool.ecoles.model.Classe;
 
 
-/**
- * Created by gueyealy on 10/12/2017.
- */
+
 @RepositoryRestResource(path = "classes", collectionResourceRel = "classes")
 public interface ClasseRepository extends PagingAndSortingRepository<Classe, Long> {
 
